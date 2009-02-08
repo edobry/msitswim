@@ -1,0 +1,23 @@
+<!--[if IE]>
+<script type="text/JavaScript" src="cc/curvycorners.js"></script> 
+<script type="text/JavaScript">
+
+  window.onload = function()
+  {
+    settings = {
+      tl: { radius: 20 },
+      tr: { radius: 20 },
+      bl: { radius: 20 },
+      br: { radius: 20 },
+      antiAlias: true,
+      autoPad: false
+    }
+
+    var cornersObj = new curvyCorners(settings, "rc"); 
+
+    cornersObj.applyCornersToAll();
+  }
+
+</script>
+<![endif]-->
+

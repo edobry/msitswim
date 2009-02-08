@@ -1,0 +1,122 @@
+﻿#calthisMonth{
+	border:none;
+	
+}
+.month{
+	
+}
+
+#nav{
+	font-size:10pt;
+}
+
+.navbtn{
+	background-color: #E6E6E6;
+	border: 1px solid black;
+	font-size: 9pt;
+	margin-right:3px;
+	margin-left:3px;
+}
+
+#nav{
+	font-family: georgia;
+
+}
+
+.dayHeader{
+	text-align: center;
+	font-size: 12px; 
+	color: white; 
+	background: gray; 
+	border: solid white 1px;
+}
+.empty{
+	background-color: white;
+}
+.days{
+	width: 94px;
+	height: 75px;
+	border: solid gray 1px;
+	text-align: left;
+	margin:5px 5px 5px 5px;
+	vertical-align:top;
+}
+.today
+{
+    width: 94px;
+    height: 75px;
+    border: solid black 1px;
+    background-color: #E0E0E0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.eventtitle{
+    width:auto;
+    margin-top:2px;
+    margin-left:2px;
+    margin-right:2px;
+}
+
+.eventtitle:hover{
+    background-color:silver;
+    width:auto;
+    margin-top:2px;
+    margin-left:2px;
+    margin-right:2px;
+}
+
+#eventbox
+{
+    position:absolute;
+    background-color:White;
+    border:solid 2px black;
+	-moz-border-radius: 10px;
+	-webkit-border-radius:10px;
+	padding:10px;
+	min-width:300px;
+	max-width:700px;
+	min-height:200px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+
+}
+
+#ehandle
+{
+	background-color:silver;
+	height:30px;
+	border:solid 1px black;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	display:inherit;
+	margin:-11px -11px 5px -11px;
+	cursor:move;
+}
+
+.eldgif
+{
+	width:40px;
+	height:40px;
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	margin:auto;
+}
+
+#etitle
+{
+    font-size:15pt;
+}
+
+#edate
+{
+    margin-bottom:20px;
+    font-size:11pt;
+}
