@@ -50,7 +50,7 @@ function calendar(id,d,p){
 	d.setDate(this.date);
 }
 
-var strConnect = "Driver={Microsoft Access Driver (*.mdb)};Dbq=" + Server.MapPath("../Data.mdb");
+var strConnect =  'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\sites\\content\\W\\h\\i\\WhiteNdNrdy\\db\\data.mdb;Persist Security Info=False';
 var oCommand = Server.CreateObject("ADODB.Command");
 var oConnection = Server.CreateObject("ADODB.Connection");
 var oRecordset = Server.CreateObject("ADODB.Recordset");
@@ -86,7 +86,8 @@ function writeCalendar(){
     <span class="month"><%=months[this.month]%></span><input id="nextMonth" value="&gt;" type="button" class="navbtn" onclick="changeMonth(+1)">
     <input id="prevYear" value="&lt;&lt;" type="button" class="navbtn" onclick="changeMonth(-12)"><span id="yearHolder"><%=this.year%></span>
     <input id="nextYear" value="&gt;&gt;" type="button" class="navbtn" onclick="changeMonth(+12)">
-    </td>
+    
+	  <a href="makeevent.asp">+New Event</a>
     </tr>
     <tr>
     <%

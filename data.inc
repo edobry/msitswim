@@ -1,4 +1,6 @@
 <%
 Dim strConnect
-strConnect = "Driver={Microsoft Access Driver (*.mdb)};Dbq=" & server.MapPath("Data.mdb")
+strConnect =  "Provider=Microsoft.Jet.OLEDB.4.0;" & _
+              "Data Source= c:\sites\content\W\h\i\WhiteNdNrdy\db\data.mdb;" & _
+              "Persist Security Info=False"
 %>
