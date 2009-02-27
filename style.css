@@ -47,7 +47,7 @@ a:active{color:gray;text-decoration:underline;}
 	-moz-border-radius: 20px;
 	-webkit-border-radius:20px;
 	width:150px;
-	min-height:400px;
+	min-height:320px;
 	padding-top:8px;
 	padding-left:0px;
 	padding-right:24px;
@@ -58,14 +58,14 @@ a:active{color:gray;text-decoration:underline;}
 
 .main
 {
-    margin:0px auto 15px 10px;
+    margin:0px auto 15px 40px;
 	border:solid 2px black;
 	background-color:White;
 	-moz-border-radius: 10px;
 	-webkit-border-radius:10px;
 	padding:10px;
 	width:588px;
-	float:right;
+	float:left;
 }
 
 .postcontainer{
@@ -230,7 +230,7 @@ ul{
 
 .sbox
 {
-	margin:20px 0px 0px 10px;
+	margin:5px 0px 0px 40px;
 	border:solid 2px black;
 	background-color:White;
 	-moz-border-radius: 10px;
@@ -277,5 +277,29 @@ ul{
     padding:4px 4px 4px 4px;
     position:relative;
     width:220px;
+    float:left;
+}
+
+.suggestbox
+{
+	margin:20px 0px 0px 0px;
+	border:solid 2px black;
+	background-color:White;
+	-moz-border-radius: 10px;
+	-webkit-border-radius:10px;
+    width:150px;
+    padding:10px 10px 10px 10px;
+    float:left;
+}
+
+.rc
+{
+	-moz-border-radius: 20px;
+	-webkit-border-radius:20px;
+}
+
+#mcon
+{
+    width:150px;
     float:left;
 }

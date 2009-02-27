@@ -1,6 +1,7 @@
-function showlogin(page){
+function showlogin(){
 	if ($('loginbox') == null | $('login'))
 	{
+	    page = document.location;
 		$('login').style.display = 'block';
 		var loginbox = '<div id="loginbox">';
         loginbox += '<form action="validate.asp" method="post">';
