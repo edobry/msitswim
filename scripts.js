@@ -1,4 +1,21 @@
-﻿function div(wdiv,visibility) { 
+﻿
+var xmlSuggest = newAjax();
+
+xmlSuggest.onreadystatechange = function() {
+    var div = $("suggestbox");
+    if (xmlSuggest.readyState == 4) {
+        if (div) {
+            div.innerHTML = xmlSuggest.responseText;
+        }
+    }
+    else if(div){
+        if (div.innerHTML != '<img alt="Loading..." src="images/loading.gif" />') {
+            div.innerHTML = '<img alt="Loading..." src="images/loading.gif" />';
+        }
+    }
+}
+
+function div(wdiv,visibility) { 
 	if (document.getElementById) { // DOM3 = IE5, NS6 
 		$(wdiv).style.visibility = visibility; 
 	} 
@@ -107,4 +124,11 @@ function SetDate(indate){
     var part = new String(indate);
     date.setFullYear(part.substr(6,4),part.substr(0,2),part.substr(3,2));
     return date;
+}
+
+function suggest(){
+    var suggestion = $('suggest').value;
+    $('sbtn').disabled = true;
+    xmlSuggest.open("GET", "editsuggest.asp?suggest=" + suggestion, true);
+    xmlSuggest.send(null)
 }

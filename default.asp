@@ -32,7 +32,8 @@
 <div id="login"><script type="text/javascript">new Draggable('login');</script></div>
 <div id="content">
 <div class="header rc"><a href="default.asp" class="head">MSIT Swim Team</a></div>
-<div class="menu rc"><!-- #include file="menus.inc"--></div>
+<!-- #include file="menus.inc"-->
+</div>
 <div class="main rc">
 
 <p>
