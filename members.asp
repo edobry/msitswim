@@ -20,6 +20,10 @@
 <h1><%=Session("First")%>&nbsp;<%=Session("Last")%></h1>
 <br/>
 <a href="changel.asp">Change Username/Password</a>
+<%If Session("Rights") = 1 Then%>
+<br/>
+<a href="vsuggest.asp">View Suggestions</a>
+<%End If %>
 <br/>
 <div class="mrecent">
 <h1>Your Posts</h1>
