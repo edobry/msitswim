@@ -1,0 +1,87 @@
+body { margin:40px 50px; font-size:11px; line-height:20px; font-family: Tahoma, Arial; background: url(images/body_bckg.jpg) repeat-x #056caa;}
+a { color:#68d3ed; text-decoration:underline;}
+a:hover { text-decoration:none;}
+h1 { padding:0px; text-transform:uppercase; font-size:18px; color:#000; background-color:#818181; font-weight:normal; color:#fff; margin: 10px 0 ;height:21px;}
+h1 span { background:#616161; padding:0px 10px 0px 0px;}
+p {margin:0; background:#616161;}
+#header {background:url(images/header_bckg.jpg) repeat-x #0287c2; clear:both; width:100%; height:161px;  }
+#left_header { float:left; width:380px; background: url(images/left_header.jpg) no-repeat; height:161px;}
+#right_header { float:right;  width:321px; background: url(images/right_header.jpg) no-repeat; height:161px;}
+
+#logo {position:absolute; text-align:center; width:95%; text-align:center; margin-top:50px; }
+#logo a {text-decoration:none; color:#FFFFFF; font-size:50px; }
+#menu { height:30px; clear:both; padding-top:5px; }
+#menu ul { margin:0; padding:0;}
+#menu ul li{ display:inline-block; float:left; width:104px; list-style:none; text-align:center;}
+#menu a { display:block; float:left; width:104px; font-size:12px; text-transform:uppercase; text-decoration:none; color:#FFFFFF; text-decoration:none; font-weight:bold }
+#menu a:hover {color:#68d3ed;}
+
+#content {clear:both; background-color:#252525; width:100%;}
+#content_top { height:20px;}
+#content_top_left {float:left; width:20px; height:20px; background: url(images/left_top_round.gif) no-repeat;}
+#content_top_right {float:right; width:20px; height:20px; background: url(images/right_top_round.gif) no-repeat;}
+#content_bottom { clear:both;height:16px;}
+#content_bottom_left {float:left; width:20px; height:16px; background: url(images/left_bottom_round.gif) no-repeat;}
+#content_bottom_right {float:right; width:20px; height:16px; background: url(images/right_bottom_round.gif) no-repeat;}
+
+#sidebar {float:left; width:231px; padding-left:10px;}
+#sidebar p {background-color:#fff; padding:0 20px;}
+#sidebar_top { height:10px; background:url(images/top_sidebar.gif) no-repeat;background-color:white;}
+#sidebar_body { background-color:#fff;}
+#sidebar_bottom { height:23px; background:url(images/bottom_sidebar.gif) no-repeat;}
+#sidebar ul {margin:0; padding:0 0 0 40px;}
+#sidebar ul li { padding:0; list-style:none;}
+#sidebar a {color:#000; font-size:11px;}
+#sidebar h1 {color:#0676bd; font-size:12px; font-weight:bold; padding:10px 0 0 20px; background-color:#fff; margin:0;}
+#ssidebar {float:left; width:231px; padding-left:10px;}
+#ssidebar p {background-color:#fff; padding:0 20px;}
+#ssidebar_top { height:10px; background:url(images/top_sidebar.gif) no-repeat;background-color:white;}
+#ssidebar_body { background-color:#fff;}
+#ssidebar_bottom { height:23px; background:url(images/bottom_sidebar.gif) no-repeat;}
+#ssidebar ul {margin:0; padding:0 0 0 40px;}
+#ssidebar ul li { padding:0; list-style:none;}
+#ssidebar a {color:#000; font-size:11px;}
+#ssidebar h1 {color:#0676bd; font-size:12px; font-weight:bold; padding:10px 0 0 20px; background-color:#fff; margin:0;}
+
+#text {background-color:#616161; margin:0px 10px 0 251px; width:auto; vertical-align:top; color:#fff;}
+#text_top {}
+#text_top_left {float:left; width:13px; height:10px; background:url(images/left_top_content.gif) no-repeat;}
+#text_top_right {float:right; width:11px; height:10px; background:url(images/rigth_top_content.gif) no-repeat;}
+#text_bottom { float:left;height:16px; background:url(images/middle_bottom_content.gif) repeat-x; width:100%;}
+#text_bottom_left {float:left; width:11px; height:16px; background: url(images/left_bottom_content.gif) no-repeat;}
+#text_bottom_right {float:right; width:11px; height:16px; background: url(images/right_bottom_content.gif) no-repeat;}
+#text_body { padding:10px 20px 10px 20px;}
+#foot_text { padding-left:50px; background:url(images/foot_text.gif) no-repeat; color:#a8a8a8; font-size:10px; line-height:13px; margin:20px 0 0 0;}
+
+#footer {background:url(images/footer_bckg.jpg) #424e4f; height:74px; clear:both;  }
+#left_footer { float:left; padding:30px 0 0 30px; color:#fff; font-size:12px;}
+#left_footer a { color:#fff;}
+#left_footer a:hover { text-decoration:none;}
+#right_footer { float:right;  padding:30px 30px 0 0; color:#fff;  font-size:12px; text-align:right;}
+#right_footer a { color:#fff;}
+#right_footer a:hover { text-decoration:none;}
+
+.post {
+	min-height:100px;
+	background-color:Silver;
+	border:1px solid gray;
+	border-left:1px solid gray;
+	margin:20px 20px 20px 15px;
+	padding:4px 4px 4px 4px;
+	position:relative;
+}
+
+.title{
+	font-weight: bold;
+}
+.posttext{
+	padding:7px 0px 0px 0px;
+}
+
+.postedit{
+	font-size:8pt;
+	text-align:right;
+}
+.addthis{
+	float:right;
+}
